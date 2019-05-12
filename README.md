@@ -1,8 +1,8 @@
 # Markov Speaking （马尔科夫链随机文本生成）
-> This project is an package generating random sentences by markov chain. If you have any problems/ideas, please [email me](mailto:forec@bupt.edu.cn), or open your PR. I feel honored to learn from your help.
+> This project is an package generating random sentences by markov chain. If you have any problems/ideas, please [email me](1142383654@qq.com), or open your PR. I feel honored to learn from your help.
 
 ## Platform
-The `markov_speaking.py` is written in `Python 2.7`, using `jieba`, `codecs`, `random` and `re`. You need to install `jieba` by `pip2 install jieba`.
+The `markov_speaking.py` is written in `Python 3.6`, using `jieba`, `codecs`, `random` and `re`. You need to install `jieba` by `pip2 install jieba`.
 
 ## Usage
 * The `markov_speaking.py` provides a class `Markov`, the `init` of `Markov` is `__init__(self, filepath = None, mode = 0, coding="utf8")`. `filepath` is the file you want to parse, and the sentences the class build will base on this file. `mode` is 0 if you want to parse English, and 1 if Chinese. `coding` assigns the codec, default is UTF-8.
